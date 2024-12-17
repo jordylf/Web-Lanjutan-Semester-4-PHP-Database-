@@ -1,0 +1,123 @@
+body {
+    background-image: linear-gradient(135deg, #f45622, #f53e54);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .card {
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background: #fff;
+  }
+
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #f53e54;
+  }
+
+  .btn-primary {
+    background-color: #f53e54;
+    border: none;
+  }
+
+  .btn-primary:hover {
+    background-color: #f45622;
+  }
+
+  .fab-notice a {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+
+  .fab-notice a:hover {
+    text-decoration: none;
+  }
+
+  .--notice {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(77, 77, 77, .83);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .--notice_container {
+    background: #FFFFFF;
+    padding: 32px;
+    border-radius: 8px;
+  }
+
+  .--notice_header {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+
+  .--notice_container p {
+    text-align: center;
+  }
+
+  .--notice_content {
+    margin: 24px 16px;
+  }
+
+  .--notice_content ul li span {
+    font-size: .85rem;
+    font-style: italic;
+    font-weight: 400;
+    color: #444444;
+  }
+
+  .--notice_content ul li span b {
+    color: red;
+    font-weight: 400;
+  }
+
+  ul {
+    list-style-position: inside;
+  }
+
+  .close-notice {
+    color: red;
+    text-align: center;
+  }
+
+  .close-notice a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .close-notice a:hover {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .hide {
+    display: none !important;
+  }

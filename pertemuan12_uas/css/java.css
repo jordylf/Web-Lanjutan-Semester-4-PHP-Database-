@@ -1,0 +1,23 @@
+.--tagline {
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    padding: 4px 10px;
+    border-radius: 8px 8px 0 0;
+    background-color: #D81B60;
+    color: #FFFFFF;
+    font-weight: bold;
+    transform: translateX(-50%);
+    transition: padding .25s ease-out;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.--tagline a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.--tagline:hover {
+    padding: 16px;
+}
